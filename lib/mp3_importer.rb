@@ -7,4 +7,4 @@ class MP3_Importer
   end
   
   def files
-    files ||= Dir.entries(@path).select {|song| !File.directory 
+    files ||= Dir.entries(@path).select {|song| !File.directory?(song) 
