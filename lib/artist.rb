@@ -32,3 +32,5 @@ class Artist
     end
   end
   
+  def print_soungs
+  
