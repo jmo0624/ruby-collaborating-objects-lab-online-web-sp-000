@@ -26,9 +26,7 @@ class Artist
     if self.find(artist_name)
       self.find(artist_name)
     else
-      new_artist = self.new(artist_name)
-      new_artist.save
-      new_artist
+      self.create(artist_name)
     end
   end
   
