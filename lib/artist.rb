@@ -17,4 +17,7 @@ class Artist
     @@self
   end
   
-  def 
+  def self.all
+    @@all
+  end
+  
